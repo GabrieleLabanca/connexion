@@ -35,7 +35,8 @@ As example you have an endpoint specified as:
             - name: message
               description: Some message.
               in: query
-              type: string
+              schema:
+                type: string
               required: true
 
 And the view function:
